@@ -1,0 +1,107 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*--------------------- 
+    common style
+------------------------ */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/*-------------------------
+     top banner style
+--------------------------- */
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background: #161616;
+    border-radius: 30px;
+    height: 600px;
+}
+.banner-info{
+    margin-left: 100px;
+}
+.banner-info h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.banner-info p{
+    margin-top: -44px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.watch-btn{
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.watch-btn .fa-greater-than{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.banner-img img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+/* navbar style*/
+.side-nav {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    width: 81%;
+}
+
+.match-blogs .match-btn{
+    display: block;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 39px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #161616;
+}
+.active{
+    display: block;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 39px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    background: #DD0000;
+    color: #FFFFFF;
+}
+.match-blogs .match-btn:hover
+{
+    background: #DD0000;
+    color: #FFFFFF;
+}
+
+/* Blog style */
